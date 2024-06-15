@@ -1,0 +1,44 @@
+@media screen and (max-width: 576px) {
+    nav{
+       flex-direction: column;
+       gap: 20px;
+    }
+    .menu-items ul li{
+        margin: 0 1rem;
+    }
+    .hero-container{
+        flex-direction: column;
+        gap: 2rem;
+        background-position: bottom;
+        height: 800px;
+        padding: 0px 1.5rem;
+        justify-content: center;
+    }
+    .hero-text, .hero-image{
+        width: 100%;
+    }
+    .hero-text{
+        text-align: center;
+    }
+    .hero-image {
+        text-align: center;
+
+    }
+    .partners-container{
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        padding: 0px 1.5rem;
+        justify-items: center;
+    }
+
+    .all-product-cards{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .products-container .product-see-more{
+        background-color: var(--primary-bg-color);
+        width: 100%;
+        color: #fff;
+        text-align: center;
+        padding: 8px 0px;
+    }
+}
