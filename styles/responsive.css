@@ -28,6 +28,7 @@
         height: 900px;
         padding: 0px 1.5rem;
         justify-content: center;
+        background-size: contain;
     }
     .hero-text, .hero-image{
         width: 100%;
