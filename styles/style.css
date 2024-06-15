@@ -86,6 +86,10 @@ nav{
     left: 34%;
     top: -3px;
 }
+.nav-search-cart{
+    display: flex;
+    align-items: center;
+}
 /* Navbar styles ends */
 
 /* Hero section styles */
@@ -97,6 +101,7 @@ nav{
     align-items: center;
     margin-top: 50px;
     height: 500px;
+    background-size: auto;
 }
 .hero-text, .hero-image{
     width: 50%;
