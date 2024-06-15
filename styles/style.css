@@ -48,6 +48,18 @@ nav{
     font-weight: bold;
     font-size: 1.50rem;
 }
+.cross{
+    display: none;
+}
+.cross .bar{
+    width: 30px;
+    margin-bottom: 6px;
+    height: 3px;
+    background-color: var(--primary-text-color);
+}
+.cross li{
+    list-style: none;
+}
 .menu-items ul{
     display: flex;
     align-items: center;
@@ -230,7 +242,7 @@ nav{
     font-weight: 600;
     text-align: right;
     margin-top: 50px;
-    margin-right: 40px;
+    /* margin-right: 40px; */
     cursor: pointer;
 }
 /* Products items styles ends */

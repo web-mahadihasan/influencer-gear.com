@@ -1,16 +1,23 @@
 @media screen and (max-width: 576px) {
     nav{
-       flex-direction: column;
+       /* flex-direction: column; */
        gap: 20px;
        padding: 0rem 1rem;
+       justify-content: space-between;
     }
-    .menu-items ul li{
+    .menu-items ul li {
         margin: 0 0.8rem;
         flex-wrap: wrap;
     }
-    /* .nav-search-cart{
+    .none{
         display: none;
-    } */
+    }
+    .logo{
+        font-size: 1.3rem;
+    }
+    .cross{
+        display: block;
+    }
     .hero-container{
         background-position: top;
     }
