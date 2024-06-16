@@ -96,8 +96,8 @@ nav{
     border-radius: 50px;
     background-color: #000;
     position: absolute;
-    left: 32%;
-    top: 4px;
+    left: 31%;
+    top: -3px;
 }
 .nav-search-cart{
     display: flex;
@@ -267,7 +267,7 @@ nav{
     font-weight: 600;
     text-align: right;
     margin-top: 50px;
-    /* margin-right: 40px; */
+    margin-right: 40px;
     cursor: pointer;
 }
 /* Products items styles ends */

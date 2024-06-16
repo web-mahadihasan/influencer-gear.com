@@ -1,7 +1,7 @@
 @media screen and (max-width: 576px) {
     nav{
        /* flex-direction: column; */
-       padding: 0rem 1rem;
+       padding: 0rem 0.8rem;
        justify-content: space-between;
        text-align: center;
     }
@@ -12,8 +12,8 @@
     .none{
         display: none;
     }
-    .logo{
-        font-size: 1.2rem;
+    .logo h3{
+        font-size: 1.1rem;
     }
     .cross{
         display: block;
