@@ -143,7 +143,7 @@ nav{
 .partners-container::before{
     content: '';
     display: block;
-    width: 100%;
+    width: 90%;
     height: 1px;
     background-image: linear-gradient(to right, rgba(192, 204, 218, 0.1), rgba(192, 204, 218, 0.6) 50%, rgba(192, 204, 218, 0.1));
     position: absolute;
@@ -152,7 +152,7 @@ nav{
 .partners-container::after{
     content: '';
     display: block;
-    width: 100%;
+    width: 90%;
     height: 1px;
     background-image: linear-gradient(to right, rgba(192, 204, 218, 0.1), rgba(192, 204, 218, 0.6) 50%, rgba(192, 204, 218, 0.1));
     position: absolute;
@@ -166,6 +166,7 @@ nav{
     align-items: center;
     background-color: #fff;
     padding: 0px 1.5rem;
+    justify-items: center;
 }
 .partners-img{
     padding: 1.5rem 0px;
