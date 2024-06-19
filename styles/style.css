@@ -357,6 +357,6 @@ footer{
 }
 .social-icons .fa-brands:hover{
     transform: translateY(-10px);
-    background-color: #1dd1a1;
+    background-color: var(--primary-bg-color);
 }
 /* Footer section styles ends*/
